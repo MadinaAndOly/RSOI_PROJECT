@@ -8,32 +8,16 @@ import java.util.Properties;
  */
 public class ConnectionDB {
 
-   /* public static  Connection getConnection() {
-        Connection connection = null;
-
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:8889/rsoi_Planning", "root", "root");
-
-            
-        }
-        catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return connection;
-    }*/
     private Properties properties;
 
     private static ConnectionDB connectionFactory = null;
-    private ConnectionDB() {
+    private ConnectionDB() throws Exception {
         try {
             properties = PropertiesLoader.loadProperties("resources/db.properties");
             Class.forName(properties.getProperty("driverClassName"));
 
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            throw new Exception(e);
         }
     }
 
@@ -47,7 +31,7 @@ public class ConnectionDB {
         return conn;
     }
 
-    public static ConnectionDB getInstance() {
+    public static ConnectionDB getInstance() throws Exception {
         if (connectionFactory == null) {
             connectionFactory = new ConnectionDB();
         }
