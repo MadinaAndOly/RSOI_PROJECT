@@ -70,25 +70,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dao.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Dao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rsoi/dao/Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="8" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.4059829" vertical-offset="75" max-vertical-offset="2685">
+            <state line="115" column="0" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2685">
               <folding>
-                <marker date="1408209084000" expanded="true" signature="1163:1343" placeholder="SELECT `USER..." />
-                <marker date="1408209084000" expanded="true" signature="2166:2369" placeholder="INSERT INTO ..." />
+                <marker date="1408209141000" expanded="true" signature="1155:1335" placeholder="SELECT `USER..." />
+                <marker date="1408209141000" expanded="true" signature="2158:2361" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionDB.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConnectionDB.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/rsoi/ConnectionDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1290">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="6" column="33" selection-start="140" selection-end="140" vertical-scroll-proportion="0.08708273" vertical-offset="0" max-vertical-offset="930">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,7 +130,7 @@
       <file leaf-file-name="IModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rsoi/model/IModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="4" selection-start="1271" selection-end="1302" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="825">
+            <state line="13" column="33" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -206,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/rsoi/model/IModel.java" />
         <option value="$PROJECT_DIR$/src/rsoi/Test.java" />
         <option value="$PROJECT_DIR$/src/rsoi/model/ModelImp.java" />
-        <option value="$PROJECT_DIR$/src/rsoi/ConnectionDB.java" />
         <option value="$PROJECT_DIR$/src/rsoi/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/src/rsoi/ConnectionDB.java" />
       </list>
     </option>
   </component>
@@ -269,7 +267,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -425,6 +422,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +436,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -797,12 +795,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -820,6 +812,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="web-app" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -1015,11 +1013,12 @@
       <workItem from="1408207937702" duration="84000" />
       <workItem from="1408208162173" duration="203000" />
       <workItem from="1408208883509" duration="201000" />
+      <workItem from="1408213808405" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155262000" />
+    <option name="totallyTimeSpent" value="155586000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1079,11 +1078,11 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52891564" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1102,8 +1101,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1375,26 +1374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rsoi/model/IModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="4" selection-start="1271" selection-end="1302" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rsoi/model/ModelImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="47" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1095">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rsoi/ConnectionDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1290">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,18 +1390,30 @@
     </entry>
     <entry file="jar://$USER_HOME$/Applications/java lib/mysqlJDBC-3.1.13.jar!/com/mysql/jdbc/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1146789" vertical-offset="0" max-vertical-offset="654">
+        <state line="6" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1146789" vertical-offset="0" max-vertical-offset="654" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rsoi/model/IModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rsoi/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="8" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.4059829" vertical-offset="75" max-vertical-offset="2685">
+        <state line="115" column="0" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2685">
           <folding>
-            <marker date="1408209084000" expanded="true" signature="1163:1343" placeholder="SELECT `USER..." />
-            <marker date="1408209084000" expanded="true" signature="2166:2369" placeholder="INSERT INTO ..." />
+            <marker date="1408209141000" expanded="true" signature="1155:1335" placeholder="SELECT `USER..." />
+            <marker date="1408209141000" expanded="true" signature="2158:2361" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rsoi/ConnectionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="140" selection-end="140" vertical-scroll-proportion="0.08708273" vertical-offset="0" max-vertical-offset="930">
+          <folding />
         </state>
       </provider>
     </entry>

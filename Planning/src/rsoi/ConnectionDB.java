@@ -24,28 +24,6 @@ public class ConnectionDB {
         }
         return connection;
     }*/
-    /*
-    public static void addOrg() {
-        Session session = Util.getSessionFactory().getCurrentSession();
-        session.beginTransaction();
-        Org r= new Org();
-        r.setCaption("Ministerstvo obrazovaniy");
-        r.setCode("0012");
-        r.setINN("123143365");
-        session.save(r);
-        session.getTransaction().commit();
-    }
-
-    public static void addDocClass(){
-        Session session = Util.getSessionFactory().getCurrentSession();
-        session.beginTransaction();
-        DocumentClass r= new DocumentClass();
-        r.setCaption("???. ?????????");
-        r.setClassDoc(10);
-        session.save(r);
-        session.getTransaction().commit();
-
-    }*/
     private Properties properties;
 
     private static ConnectionDB connectionFactory = null;
