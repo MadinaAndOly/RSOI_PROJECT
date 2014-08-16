@@ -1,0 +1,1269 @@
+23.02.2014 3:47:46 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+23.02.2014 3:47:46 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+23.02.2014 3:47:46 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+23.02.2014 3:47:46 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 776 ms
+23.02.2014 3:47:46 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+23.02.2014 3:47:46 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+23.02.2014 3:47:46 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+23.02.2014 3:47:47 org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocketJARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+23.02.2014 3:47:47 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+23.02.2014 3:47:47 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+23.02.2014 3:47:47 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+23.02.2014 3:47:47 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+23.02.2014 3:47:47 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+23.02.2014 3:47:47 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+23.02.2014 3:47:47 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1393 ms
+23.02.2014 13:36:28 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+23.02.2014 13:36:29 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+23.02.2014 13:36:29 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+23.02.2014 13:36:29 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+23.02.2014 13:36:29 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+23.02.2014 13:36:29 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+23.02.2014 13:36:29 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+апр 14, 2014 7:16:43 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+апр 14, 2014 7:16:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+апр 14, 2014 7:16:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+апр 14, 2014 7:16:43 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1036 ms
+апр 14, 2014 7:16:43 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+апр 14, 2014 7:16:43 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+апр 14, 2014 7:16:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+апр 14, 2014 7:16:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+апр 14, 2014 7:16:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+апр 14, 2014 7:16:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1655 ms
+апр 15, 2014 8:47:56 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+2014-04-21 13:41:04.835 java[8298:613f] Connection with distnoted server was invalidated
+апр 21, 2014 1:41:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+апр 21, 2014 1:41:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+апр 21, 2014 1:41:25 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+апр 21, 2014 1:41:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+апр 21, 2014 1:41:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+апр 21, 2014 1:41:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+апр 21, 2014 1:41:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:13:03 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 12, 2014 5:13:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:13:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:13:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 915 ms
+май 12, 2014 5:13:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 12, 2014 5:13:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 12, 2014 5:13:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 12, 2014 5:13:04 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [157] milliseconds.
+май 12, 2014 5:13:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 12, 2014 5:13:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:13:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1770 ms
+май 12, 2014 5:21:01 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:01 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:05 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 12, 2014 5:21:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 726 ms
+май 12, 2014 5:21:05 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 12, 2014 5:21:05 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 12, 2014 5:21:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 12, 2014 5:21:06 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [182] milliseconds.
+май 12, 2014 5:21:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 12, 2014 5:21:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1731 ms
+май 12, 2014 5:24:24 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:24 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:28 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 12, 2014 5:24:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 730 ms
+май 12, 2014 5:24:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 12, 2014 5:24:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 12, 2014 5:24:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 12, 2014 5:24:29 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [171] milliseconds.
+май 12, 2014 5:24:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 12, 2014 5:24:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 12, 2014 5:24:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 12, 2014 5:24:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 12, 2014 5:24:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1682 ms
+май 12, 2014 7:06:59 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 12, 2014 7:10:12 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+2014-05-21 01:51:56.102 java[36617:8603] Connection with distnoted server was invalidated
+май 21, 2014 1:52:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+май 21, 2014 1:52:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+май 21, 2014 1:52:16 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+май 21, 2014 1:52:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+май 21, 2014 1:52:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+май 21, 2014 1:52:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+май 21, 2014 1:52:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 25, 2014 1:34:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 25, 2014 1:34:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 25, 2014 1:34:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 25, 2014 1:34:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 848 ms
+май 25, 2014 1:34:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 25, 2014 1:34:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 25, 2014 1:34:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 25, 2014 1:34:47 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [169] milliseconds.
+май 25, 2014 1:34:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 25, 2014 1:34:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 25, 2014 1:34:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1800 ms
+май 26, 2014 6:12:56 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+2014-05-27 02:58:00.089 java[1337:808f] Connection with distnoted server was invalidated
+май 27, 2014 2:58:20 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+май 27, 2014 2:58:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+май 27, 2014 2:58:21 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+май 27, 2014 2:58:21 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+май 27, 2014 2:58:21 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+май 27, 2014 2:58:21 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+май 27, 2014 2:58:21 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 31, 2014 12:54:55 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 31, 2014 12:54:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 31, 2014 12:54:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 31, 2014 12:54:55 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1073 ms
+май 31, 2014 12:54:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 31, 2014 12:54:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 31, 2014 12:54:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 31, 2014 12:54:56 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
+май 31, 2014 12:54:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 31, 2014 12:54:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 31, 2014 12:54:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1962 ms
+май 31, 2014 12:57:15 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:11:30 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:17:16 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:31:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:33:04 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:47:55 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:48:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:48:42 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:48:51 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:50:31 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:57:49 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:57:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/webApps
+май 31, 2014 1:59:09 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/webApps]
+май 31, 2014 2:01:38 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:01:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+май 31, 2014 2:01:42 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+май 31, 2014 2:01:42 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Sat May 31 14:01:42 MSK 2014]; root of context hierarchy
+май 31, 2014 2:01:42 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+май 31, 2014 2:01:42 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+май 31, 2014 2:01:45 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@661261ba: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+май 31, 2014 2:01:46 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization completed in 4070 ms
+май 31, 2014 2:03:56 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:05:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:06:13 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:07:28 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:08:36 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:08:46 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:09:29 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:09:54 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:10:20 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:19:18 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:31:03 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:31:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:32:09 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:32:29 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:33:01 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:33:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:33:48 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:40:31 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:41:42 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:01:46 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:01:58 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:02:17 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 3:02:41 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:03:05 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 3:03:22 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:04:11 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:04:25 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 3:04:48 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:06:10 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:06:54 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/create.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:07:18 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/create.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:32:51 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+2014-06-02 01:33:55.996 java[2428:9607] Connection with distnoted server was invalidated
+июн 02, 2014 1:34:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+июн 02, 2014 1:34:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+июн 02, 2014 1:34:16 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+июн 02, 2014 1:34:16 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'Planning-servlet': startup date [Sat May 31 14:01:42 MSK 2014]; root of context hierarchy
+июн 02, 2014 1:34:16 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@661261ba: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 02, 2014 1:34:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+июн 02, 2014 1:34:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+июн 02, 2014 1:34:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+июн 02, 2014 1:34:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+июн 04, 2014 11:29:14 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+июн 04, 2014 11:29:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+июн 04, 2014 11:29:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+июн 04, 2014 11:29:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1004 ms
+июн 04, 2014 11:29:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+июн 04, 2014 11:29:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+июн 04, 2014 11:29:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+июн 04, 2014 11:29:16 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [195] milliseconds.
+июн 04, 2014 11:29:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+июн 04, 2014 11:29:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+июн 04, 2014 11:29:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+июн 04, 2014 11:29:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+июн 04, 2014 11:29:18 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+июн 04, 2014 11:29:18 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Wed Jun 04 11:29:18 MSK 2014]; root of context hierarchy
+июн 04, 2014 11:29:18 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+июн 04, 2014 11:29:19 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+июн 04, 2014 11:30:37 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from relative location [hibernate.cfg.xml]
+Offending resource: ServletContext resource [/WEB-INF/spring/app-config.xml]; nested exception is org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]; nested exception is java.net.ConnectException: Operation timed out
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:76)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:219)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:148)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:133)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:465)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:395)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:442)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:458)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:339)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:306)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:127)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1279)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1192)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5210)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5493)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]; nested exception is java.net.ConnectException: Operation timed out
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:408)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:203)
+	... 37 more
+Caused by: java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2398)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1557)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:637)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1290)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1257)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:263)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1164)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1050)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 40 more
+
+июн 04, 2014 11:30:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+июн 04, 2014 11:30:37 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+июн 04, 2014 11:30:37 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+июн 04, 2014 11:30:37 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 82437 ms
+июн 04, 2014 11:35:43 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+июн 04, 2014 11:35:43 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Wed Jun 04 11:35:43 MSK 2014]; root of context hierarchy
+июн 04, 2014 11:35:43 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+июн 04, 2014 11:35:43 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+июн 04, 2014 11:37:00 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from relative location [hibernate.cfg.xml]
+Offending resource: ServletContext resource [/WEB-INF/spring/app-config.xml]; nested exception is org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]; nested exception is java.net.ConnectException: Operation timed out
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:76)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:219)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:148)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:133)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:465)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:395)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:442)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:458)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:339)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:306)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:127)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1279)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1192)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:864)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]; nested exception is java.net.ConnectException: Operation timed out
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:408)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:203)
+	... 38 more
+Caused by: java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2398)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1557)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:637)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1290)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1257)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:263)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1164)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1050)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 41 more
+
+июн 04, 2014 3:11:47 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+июн 04, 2014 3:11:47 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Wed Jun 04 15:11:47 MSK 2014]; root of context hierarchy
+июн 04, 2014 3:11:47 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+июн 04, 2014 3:11:47 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+июн 04, 2014 3:11:51 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@cd89c9a: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 04, 2014 3:11:51 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization completed in 4613 ms
+июн 04, 2014 3:11:51 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 04, 2014 3:21:11 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 05, 2014 10:42:51 AM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 05, 2014 8:33:24 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 05, 2014 10:20:59 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 06, 2014 10:03:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:03:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 10:06:05 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:06:11 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:06:11 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:06:11 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:50:01 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:50:07 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:50:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:50:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:51:04 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:51:08 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:51:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:51:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:52:02 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:55:58 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 10:55:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 10:56:01 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+июн 06, 2014 10:56:01 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Fri Jun 06 10:56:01 MSK 2014]; root of context hierarchy
+июн 06, 2014 10:56:01 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+июн 06, 2014 10:56:01 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+июн 06, 2014 10:57:19 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from relative location [hibernate.cfg.xml]
+Offending resource: ServletContext resource [/WEB-INF/spring/app-config.xml]; nested exception is org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]; nested exception is java.net.ConnectException: Operation timed out
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:76)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:219)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:148)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:133)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:93)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:465)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:395)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:442)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:458)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:339)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:306)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:127)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1279)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1192)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5210)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5493)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]; nested exception is java.net.ConnectException: Operation timed out
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:408)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:203)
+	... 37 more
+Caused by: java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2398)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1557)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:637)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1290)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1257)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:263)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1164)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1050)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 40 more
+
+июн 06, 2014 10:58:00 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 10:58:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 10:58:19 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:59:00 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:59:00 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:59:00 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:59:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:59:25 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:00:55 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:01:01 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 11:01:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 11:01:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 11:01:33 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:01:41 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 11:01:41 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 11:01:42 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 11:02:13 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:02:52 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 11:03:31 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:03:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 11:06:44 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:07:13 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 11:07:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 11:33:00 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:36:34 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 11:36:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 11:36:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 11:36:41 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:43:00 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:44:05 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 11:44:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 11:44:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 11:44:05 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:44:37 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:45:16 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 11:45:36 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:45:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 11:47:43 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 11:52:02 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 12:05:27 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+javax.xml.ws.soap.SOAPFaultException: java.lang.ExceptionInInitializerError
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:117)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:108)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:78)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:135)
+	at com.sun.proxy.$Proxy38.authorizeUser(Unknown Source)
+	at rsoi.servlets.AuthorizeServlet.processRequest(AuthorizeServlet.java:37)
+	at rsoi.servlets.AuthorizeServlet.doPost(AuthorizeServlet.java:28)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+июн 06, 2014 2:56:09 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 2:56:11 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 2:56:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 2:56:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 3:46:53 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 3:46:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 3:46:54 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 3:47:00 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+javax.xml.ws.soap.SOAPFaultException: Could not initialize class rsoi.Util.Util
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:117)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:108)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:78)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:135)
+	at com.sun.proxy.$Proxy42.authorizeUser(Unknown Source)
+	at rsoi.servlets.AuthorizeServlet.processRequest(AuthorizeServlet.java:37)
+	at rsoi.servlets.AuthorizeServlet.doPost(AuthorizeServlet.java:28)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+июн 06, 2014 4:29:35 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 4:29:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 4:30:00 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 4:38:59 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 4:39:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 4:39:51 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 4:40:50 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 4:41:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 4:42:42 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:07:56 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 10:17:40 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:17:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 10:19:03 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:20:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:27:18 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:27:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:27:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:27:22 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:29:06 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+javax.xml.ws.soap.SOAPFaultException: Could not initialize class rsoi.Util.Util
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:117)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:108)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:78)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:135)
+	at com.sun.proxy.$Proxy43.authorizeUser(Unknown Source)
+	at rsoi.servlets.AuthorizeServlet.processRequest(AuthorizeServlet.java:37)
+	at rsoi.servlets.AuthorizeServlet.doPost(AuthorizeServlet.java:28)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+июн 06, 2014 10:34:19 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:34:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:34:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:34:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:34:49 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+июн 06, 2014 10:37:09 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:37:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:37:10 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:37:13 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:38:20 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebPlanning]
+июн 06, 2014 10:39:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 06, 2014 10:39:19 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 06, 2014 10:45:21 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 06, 2014 10:45:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 06, 2014 10:45:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 06, 2014 10:45:35 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 1:16:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 1:16:18 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 07, 2014 1:16:18 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 07, 2014 1:16:18 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 07, 2014 5:31:33 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 5:31:38 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 07, 2014 5:31:38 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 07, 2014 5:31:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 07, 2014 5:33:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 5:34:25 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 5:38:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+javax.xml.ws.soap.SOAPFaultException: org/hibernate/service/ServiceRegistry
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:117)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:108)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:78)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:135)
+	at com.sun.proxy.$Proxy49.authorizeUser(Unknown Source)
+	at rsoi.servlets.AuthorizeServlet.processRequest(AuthorizeServlet.java:37)
+	at rsoi.servlets.AuthorizeServlet.doPost(AuthorizeServlet.java:28)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2014-06-11 03:52:50.042 java[757:8817] Connection with distnoted server was invalidated
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+июн 11, 2014 3:53:10 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+июн 11, 2014 3:53:10 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'Planning-servlet': startup date [Wed Jun 04 15:11:47 MSK 2014]; root of context hierarchy
+июн 11, 2014 3:53:10 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@cd89c9a: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+июн 15, 2014 9:42:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+июн 15, 2014 9:42:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+июн 15, 2014 9:42:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+июн 15, 2014 9:42:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 873 ms
+июн 15, 2014 9:42:37 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+июн 15, 2014 9:42:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+июн 15, 2014 9:42:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+июн 15, 2014 9:42:38 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [151] milliseconds.
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+июн 15, 2014 9:42:40 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+июн 15, 2014 9:42:40 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Sun Jun 15 21:42:40 MSK 2014]; root of context hierarchy
+июн 15, 2014 9:42:40 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+июн 15, 2014 9:42:41 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+июн 15, 2014 9:42:47 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29f29436: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 15, 2014 9:42:48 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization completed in 7463 ms
+июн 15, 2014 9:42:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+июн 15, 2014 9:42:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 15, 2014 9:42:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+июн 15, 2014 9:42:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+июн 15, 2014 9:42:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11270 ms
+июн 17, 2014 1:29:31 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 17, 2014 1:29:34 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/Planning]
+июн 17, 2014 1:29:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Planning] has started
+июн 17, 2014 1:29:34 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'Planning-servlet': startup date [Sun Jun 15 21:42:40 MSK 2014]; root of context hierarchy
+июн 17, 2014 1:29:34 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29f29436: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 17, 2014 1:29:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Planning] is completed
+июн 17, 2014 1:30:32 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 17, 2014 1:31:51 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 17, 2014 1:34:07 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/Planning]
+июн 17, 2014 1:34:14 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 17, 2014 1:34:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+2014-07-01 00:50:22.627 java[2338:723f] Connection with distnoted server was invalidated
+июл 01, 2014 12:50:42 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+июл 01, 2014 12:50:42 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+июл 01, 2014 12:50:42 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+июл 01, 2014 12:50:43 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+июл 01, 2014 12:50:43 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+июл 01, 2014 12:50:43 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+июл 01, 2014 12:50:43 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+авг 09, 2014 8:49:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+авг 09, 2014 8:49:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+авг 09, 2014 8:49:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+авг 09, 2014 8:49:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 890 ms
+авг 09, 2014 8:49:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+авг 09, 2014 8:49:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+авг 09, 2014 8:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+авг 09, 2014 8:49:41 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [152] milliseconds.
+авг 09, 2014 8:49:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+авг 09, 2014 8:49:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+авг 09, 2014 8:49:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+авг 09, 2014 8:49:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+авг 09, 2014 8:49:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+авг 09, 2014 8:49:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+авг 09, 2014 8:49:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+авг 09, 2014 8:49:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+авг 09, 2014 8:49:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2021 ms
+2014-08-14 22:40:40.389 java[2894:620f] Connection with distnoted server was invalidated
+авг 14, 2014 10:41:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+авг 14, 2014 10:41:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+авг 14, 2014 10:41:01 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+авг 14, 2014 10:41:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+авг 14, 2014 10:41:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+авг 14, 2014 10:41:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+авг 14, 2014 10:41:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

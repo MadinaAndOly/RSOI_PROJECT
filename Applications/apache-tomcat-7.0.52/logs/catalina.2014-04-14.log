@@ -1,0 +1,28 @@
+апр 14, 2014 7:16:43 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+апр 14, 2014 7:16:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+апр 14, 2014 7:16:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+апр 14, 2014 7:16:43 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1036 ms
+апр 14, 2014 7:16:43 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+апр 14, 2014 7:16:43 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+апр 14, 2014 7:16:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+апр 14, 2014 7:16:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+апр 14, 2014 7:16:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+апр 14, 2014 7:16:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+апр 14, 2014 7:16:45 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1655 ms

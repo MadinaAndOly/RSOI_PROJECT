@@ -1,0 +1,126 @@
+май 12, 2014 5:13:03 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 12, 2014 5:13:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:13:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:13:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 915 ms
+май 12, 2014 5:13:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 12, 2014 5:13:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 12, 2014 5:13:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 12, 2014 5:13:04 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [157] milliseconds.
+май 12, 2014 5:13:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 12, 2014 5:13:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:13:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:13:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1770 ms
+май 12, 2014 5:21:01 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:01 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:05 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 12, 2014 5:21:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 726 ms
+май 12, 2014 5:21:05 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 12, 2014 5:21:05 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 12, 2014 5:21:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 12, 2014 5:21:06 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [182] milliseconds.
+май 12, 2014 5:21:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 12, 2014 5:21:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:21:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:21:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1731 ms
+май 12, 2014 5:24:24 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:24 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:28 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 12, 2014 5:24:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 730 ms
+май 12, 2014 5:24:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 12, 2014 5:24:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 12, 2014 5:24:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 12, 2014 5:24:29 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [171] milliseconds.
+май 12, 2014 5:24:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 12, 2014 5:24:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 12, 2014 5:24:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 12, 2014 5:24:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 12, 2014 5:24:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 12, 2014 5:24:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 12, 2014 5:24:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1682 ms
+май 12, 2014 7:06:59 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 12, 2014 7:10:12 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received

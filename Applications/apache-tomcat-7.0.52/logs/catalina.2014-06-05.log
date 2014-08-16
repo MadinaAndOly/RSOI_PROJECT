@@ -1,0 +1,6 @@
+июн 05, 2014 10:42:51 AM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 05, 2014 8:33:24 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+июн 05, 2014 10:20:59 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'

@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="java lib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Applications/java lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/hibernate3.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/j2ee.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/javassist-3.4.GA-2.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/jstl.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/jta-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/mysqlJDBC-3.1.13.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/slf4j-api-1.5.3.jar!/" />
+      <root url="jar://$USER_HOME$/Applications/java lib/slf4j-log4j12-1.5.3.jar!/" />
+      <root url="file://$USER_HOME$/Applications/java lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Applications/java lib/javax.servlet.jsp.jstl-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Applications/java lib" recursive="false" />
+  </library>
+</component>

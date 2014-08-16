@@ -1,0 +1,18 @@
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+июн 11, 2014 3:53:10 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+июн 11, 2014 3:53:10 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'Planning-servlet': startup date [Wed Jun 04 15:11:47 MSK 2014]; root of context hierarchy
+июн 11, 2014 3:53:10 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@cd89c9a: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+июн 11, 2014 3:53:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

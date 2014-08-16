@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="rsoi.DataObject">
+	<class  name="DocumentClass" table="documentClass">
+		<id name="id" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="classDoc" column="classDoc"/>
+		<property name="caption" column="caption"/>
+
+		<set name="docs" table="stateProgDoc"
+		     inverse="true" lazy="true" fetch="select">
+			<key>
+				<column name="id" not-null="true" />
+			</key>
+			<one-to-many class="rsoi.DataObject.StateProgDoc" />
+		</set>
+	</class>
+</hibernate-mapping>

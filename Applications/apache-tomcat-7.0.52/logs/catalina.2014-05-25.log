@@ -1,0 +1,30 @@
+май 25, 2014 1:34:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 25, 2014 1:34:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 25, 2014 1:34:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 25, 2014 1:34:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 848 ms
+май 25, 2014 1:34:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 25, 2014 1:34:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 25, 2014 1:34:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 25, 2014 1:34:47 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [169] milliseconds.
+май 25, 2014 1:34:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 25, 2014 1:34:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 25, 2014 1:34:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 25, 2014 1:34:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1800 ms

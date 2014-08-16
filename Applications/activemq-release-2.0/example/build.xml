@@ -1,0 +1,87 @@
+<project name="Inbox" default="help" basedir=".">
+
+  <property name="class.dir" value="target/classes"/>
+
+  <!-- example program defaults -->
+  <property name="url" value="tcp://localhost:61616"/>
+  <property name="topic" value="false"/>
+  <property name="subject" value="TEST.FOO"/>
+  <property name="durable" value="false"/>
+  <property name="max" value="10"/>
+  <property name="messageCount" value="10"/>
+  <property name="messageSize" value="1000"/>
+
+  <target name="help">
+    <echo>
+		This script requires Ant 1.5 or higher
+
+		usage:
+		   ant -help		display ant help screen
+		   ant help			display this message
+		   ant clean		delete the built directory
+
+		   ant consumer creates a consumer which waits until a specific number of messages have been received
+		   ant producer creates a producer publishing a number of messages
+    </echo>
+  </target>
+
+  <target name="clean">
+    <delete dir="target" quiet="true"/>
+    <delete dir="${class.dir}" quiet="true"/>
+  </target>
+
+  <target name="init">
+    <mkdir dir="${class.dir}"/>
+    <mkdir dir="src/ddl"/>
+
+    <path id="javac.classpath">
+      <pathelement path="${class.dir}"/>
+      <fileset dir="../lib">
+        <include name="**/*.jar"/>
+      </fileset>
+    </path>
+  </target>
+
+
+  <target name="compile" depends="init" description="Compile all Java">
+    <javac srcdir="src" destdir="${class.dir}">
+      <classpath refid="javac.classpath"/>
+    </javac>
+    <copy todir="${class.dir}">
+      <fileset dir="src">
+        <include name="**/*.properties"/>
+        <include name="**/*.xml"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="consumer" depends="compile" description="Runs a simple consumer">
+
+    <echo>Running consumer against server at $$url = ${url} for subject $$subject = ${subject}</echo>
+    <java classname="ConsumerTool" fork="yes" maxmemory="100M">
+      <classpath refid="javac.classpath"/>
+      <jvmarg value="-server"/>
+      <arg value="${url}"/>
+      <arg value="${topic}"/>
+      <arg value="${subject}"/>
+      <arg value="${durable}"/>
+      <arg value="${max}"/>
+    </java>
+  </target>
+
+  <target name="producer" depends="compile" description="Runs a simple producer">
+
+    <echo>Running producer against server at $$url = ${url} for subject $$subject = ${subject}</echo>
+    <java classname="ProducerTool" fork="yes" maxmemory="100M">
+      <classpath refid="javac.classpath"/>
+      <jvmarg value="-server"/>
+      <arg value="${url}"/>
+      <arg value="${topic}"/>
+      <arg value="${subject}"/>
+      <arg value="${durable}"/>
+      <arg value="${messageCount}"/>
+      <arg value="${messageSize}"/>
+    </java>
+  </target>
+
+</project>

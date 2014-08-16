@@ -1,0 +1,136 @@
+май 31, 2014 12:54:55 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+май 31, 2014 12:54:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+май 31, 2014 12:54:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+май 31, 2014 12:54:55 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1073 ms
+май 31, 2014 12:54:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+май 31, 2014 12:54:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+май 31, 2014 12:54:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+май 31, 2014 12:54:56 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
+май 31, 2014 12:54:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+май 31, 2014 12:54:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+май 31, 2014 12:54:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+май 31, 2014 12:54:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1962 ms
+май 31, 2014 12:57:15 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:11:30 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:17:16 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:31:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:33:04 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:47:55 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:48:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:48:42 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:48:51 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:50:31 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:57:49 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 1:57:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/webApps
+май 31, 2014 1:59:09 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/webApps]
+май 31, 2014 2:01:38 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:01:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+май 31, 2014 2:01:42 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+май 31, 2014 2:01:42 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Sat May 31 14:01:42 MSK 2014]; root of context hierarchy
+май 31, 2014 2:01:42 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+май 31, 2014 2:01:42 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+май 31, 2014 2:01:45 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@661261ba: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+май 31, 2014 2:01:46 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization completed in 4070 ms
+май 31, 2014 2:03:56 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:05:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:06:13 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:07:28 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:08:36 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:08:46 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:09:29 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:09:54 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:10:20 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:19:18 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:31:03 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:31:41 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:32:09 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:32:29 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:33:01 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:33:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:33:48 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 2:40:31 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 2:41:42 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:01:46 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:01:58 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:02:17 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 3:02:41 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:03:05 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 3:03:22 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:04:11 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:04:25 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+май 31, 2014 3:04:48 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:06:10 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:06:54 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/create.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:07:18 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/create.action] in DispatcherServlet with name 'Planning'
+май 31, 2014 3:32:51 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/Planning/contact/view.action] in DispatcherServlet with name 'Planning'

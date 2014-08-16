@@ -1,0 +1,168 @@
+STATUS | wrapper  | 2014/05/25 13:14:11 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2014/05/25 13:14:12 | Launching a JVM...
+INFO   | jvm 1    | 2014/05/25 13:14:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2014/05/25 13:14:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2014/05/25 13:14:13 | 
+INFO   | jvm 1    | 2014/05/25 13:14:13 | 
+INFO   | jvm 1    | 2014/05/25 13:14:13 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2014/05/25 13:14:13 |           following files:
+INFO   | jvm 1    | 2014/05/25 13:14:13 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2014/05/25 13:14:13 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2014/05/25 13:14:13 |             libwrapper.dylib
+INFO   | jvm 1    | 2014/05/25 13:14:13 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2014/05/25 13:14:13 |             /Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2014/05/25 13:14:13 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2014/05/25 13:14:13 |           configuration property.
+INFO   | jvm 1    | 2014/05/25 13:14:13 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2014/05/25 13:14:13 | 
+INFO   | jvm 1    | 2014/05/25 13:14:13 | Java Runtime: Oracle Corporation 1.7.0_51 /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre
+INFO   | jvm 1    | 2014/05/25 13:14:13 |   Heap sizes: current=62976k  free=57770k  max=932352k
+INFO   | jvm 1    | 2014/05/25 13:14:13 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=z64bO2RwlyPfMeOs -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1237 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2014/05/25 13:14:13 | Extensions classpath:
+INFO   | jvm 1    | 2014/05/25 13:14:13 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2014/05/25 13:14:13 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2014/05/25 13:14:13 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2014/05/25 13:14:13 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2014/05/25 13:14:13 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2014/05/25 13:14:13 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2014/05/25 13:14:14 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@36c8e545: startup date [Sun May 25 13:14:14 MSK 2014]; root of context hierarchy
+INFO   | jvm 1    | 2014/05/25 13:14:15 |  INFO | PListStore:[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2014/05/25 13:14:15 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-52247-1401009255971-0:1) is starting
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | Listening for connections at: tcp://MacBook-Air-Madina.local:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | Connector openwire Started
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | Listening for connections at: amqp://MacBook-Air-Madina.local:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | Connector amqp Started
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-52247-1401009255971-0:1) started
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2014/05/25 13:14:16 |  WARN | Store limit is 102400 mb, whilst the data directory: /Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb only has 81830 mb of usable space
+INFO   | jvm 1    | 2014/05/25 13:14:17 |  INFO | Web console type: embedded
+INFO   | jvm 1    | 2014/05/25 13:14:17 |  INFO | ActiveMQ WebConsole initialized.
+INFO   | jvm 1    | 2014/05/25 13:14:17 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2014/05/25 13:14:17 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2014/05/26 14:11:34 |  WARN | Transport Connection to: tcp://127.0.0.1:57036 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:57036
+INFO   | jvm 1    | 2014/05/26 14:37:45 |  INFO | Connector vm://localhost Started
+INFO   | jvm 1    | 2014/05/26 15:22:55 |  WARN | Transport Connection to: tcp://127.0.0.1:57974 failed: java.io.EOFException
+INFO   | jvm 1    | 2014/05/26 15:22:57 |  INFO | Connector vm://localhost Stopped
+INFO   | jvm 1    | 2014/05/26 15:23:49 |  INFO | Connector vm://localhost Started
+INFO   | jvm 1    | 2014/05/26 16:00:39 |  INFO | Connector vm://localhost Stopped
+INFO   | jvm 1    | 2014/05/26 16:01:19 |  INFO | Connector vm://localhost Started
+INFO   | jvm 1    | 2014/05/26 16:03:29 |  WARN | Transport Connection to: tcp://127.0.0.1:58093 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:58093
+INFO   | jvm 1    | 2014/05/26 16:32:39 |  INFO | Connector vm://localhost Stopped
+INFO   | jvm 1    | 2014/05/26 17:47:46 |  WARN | Ignoring ack received before dispatch; result of failover with an outstanding ack. Acked messages will be replayed if present on this broker. Ignored ack: MessageAck {commandId = 6, responseRequired = false, ackType = 2, consumerId = ID:MacBook-Air-Madina.local-58092-1401105739783-1:1:1:1, firstMessageId = ID:MacBook-Air-Madina.local-52247-1401009255971-3:3:1:1:2, lastMessageId = ID:MacBook-Air-Madina.local-52247-1401009255971-3:3:1:1:2, destination = queue://testQ, transactionId = null, messageCount = 1, poisonCause = null}
+INFO   | jvm 1    | 2014/05/26 18:52:14 |  INFO | Connector vm://localhost Started
+INFO   | jvm 1    | 2014/05/27 02:58:00 | 2014-05-27 02:58:00.092 java[1238:9943] Connection with distnoted server was invalidated
+STATUS | wrapper  | 2014/05/27 02:58:19 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2014/05/27 02:58:19 | TERM trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2014/05/27 02:58:19 | JVM did not exit on request, terminated
+INFO   | wrapper  | 2014/05/27 02:58:19 | JVM exited on its own while waiting to kill the application.
+STATUS | wrapper  | 2014/05/27 02:58:20 | JVM exited in response to signal SIGKILL (9).
+STATUS | wrapper  | 2014/05/27 02:58:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2014/06/04 11:29:28 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2014/06/04 11:29:28 | Launching a JVM...
+INFO   | jvm 1    | 2014/06/04 11:29:28 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2014/06/04 11:29:28 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2014/06/04 11:29:28 | 
+INFO   | jvm 1    | 2014/06/04 11:29:28 | 
+INFO   | jvm 1    | 2014/06/04 11:29:28 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2014/06/04 11:29:28 |           following files:
+INFO   | jvm 1    | 2014/06/04 11:29:28 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2014/06/04 11:29:28 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2014/06/04 11:29:28 |             libwrapper.dylib
+INFO   | jvm 1    | 2014/06/04 11:29:28 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2014/06/04 11:29:28 |             /Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2014/06/04 11:29:28 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2014/06/04 11:29:28 |           configuration property.
+INFO   | jvm 1    | 2014/06/04 11:29:28 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2014/06/04 11:29:28 | 
+INFO   | jvm 1    | 2014/06/04 11:29:29 | Java Runtime: Oracle Corporation 1.7.0_51 /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre
+INFO   | jvm 1    | 2014/06/04 11:29:29 |   Heap sizes: current=62976k  free=57770k  max=932352k
+INFO   | jvm 1    | 2014/06/04 11:29:29 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=8YORcZyNdNz_4DyV -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=788 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2014/06/04 11:29:29 | Extensions classpath:
+INFO   | jvm 1    | 2014/06/04 11:29:29 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2014/06/04 11:29:29 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2014/06/04 11:29:29 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2014/06/04 11:29:29 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2014/06/04 11:29:29 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2014/06/04 11:29:29 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2014/06/04 11:29:29 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@23652209: startup date [Wed Jun 04 11:29:29 MSK 2014]; root of context hierarchy
+INFO   | jvm 1    | 2014/06/04 11:29:31 |  INFO | PListStore:[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2014/06/04 11:29:31 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2014/06/04 11:29:31 |  INFO | KahaDB is version 4
+INFO   | jvm 1    | 2014/06/04 11:29:31 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2014/06/04 11:29:31 |  INFO | Recovery replayed 3 operations from the journal in 0.032 seconds.
+INFO   | jvm 1    | 2014/06/04 11:29:31 |  INFO | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-50632-1401866971700-0:1) is starting
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | Listening for connections at: tcp://MacBook-Air-Madina.local:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | Connector openwire Started
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | Listening for connections at: amqp://MacBook-Air-Madina.local:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | Connector amqp Started
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-50632-1401866971700-0:1) started
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  WARN | Store limit is 102400 mb, whilst the data directory: /Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb only has 73330 mb of usable space
+INFO   | jvm 1    | 2014/06/04 11:29:32 |  INFO | Web console type: embedded
+INFO   | jvm 1    | 2014/06/04 11:29:33 |  INFO | ActiveMQ WebConsole initialized.
+INFO   | jvm 1    | 2014/06/04 11:29:33 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2014/06/04 11:29:33 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2014/06/05 11:43:20 |  INFO | Connector vm://localhost Started
+INFO   | jvm 1    | 2014/06/05 11:51:02 |  WARN | Transport Connection to: tcp://127.0.0.1:59012 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:59012
+INFO   | jvm 1    | 2014/06/05 11:54:31 |  WARN | Ignoring ack received before dispatch; result of failover with an outstanding ack. Acked messages will be replayed if present on this broker. Ignored ack: MessageAck {commandId = 6, responseRequired = false, ackType = 2, consumerId = ID:MacBook-Air-Madina.local-59011-1401954592373-1:1:1:1, firstMessageId = ID:MacBook-Air-Madina.local-57758-1401953186008-1:1:1:1:1, lastMessageId = ID:MacBook-Air-Madina.local-57758-1401953186008-1:1:1:1:1, destination = queue://0012123143365, transactionId = null, messageCount = 1, poisonCause = null}
+INFO   | jvm 1    | 2014/06/05 11:57:04 |  WARN | Transport Connection to: tcp://127.0.0.1:59243 failed: java.io.EOFException
+INFO   | jvm 1    | 2014/06/05 12:03:15 |  WARN | Transport Connection to: tcp://127.0.0.1:59946 failed: java.io.EOFException
+INFO   | jvm 1    | 2014/06/05 12:05:21 |  WARN | Transport Connection to: tcp://127.0.0.1:59955 failed: java.io.EOFException
+INFO   | jvm 1    | 2014/06/05 16:48:25 |  WARN | /admin/deleteDestination.action
+INFO   | jvm 1    | 2014/06/05 16:48:25 | java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:288)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1063)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1048)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:886)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:778)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1329)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1038)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:374)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:972)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.Server.handle(Server.java:363)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:483)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:920)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:982)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+INFO   | jvm 1    | 2014/06/05 16:48:25 | 	at java.lang.Thread.run(Thread.java:744)
+INFO   | jvm 1    | 2014/06/09 12:02:11 |  WARN | Transport Connection to: tcp://127.0.0.1:62183 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:62183
+INFO   | jvm 1    | 2014/06/11 03:52:50 | 2014-06-11 03:52:50.045 java[789:8a3f] Connection with distnoted server was invalidated
+STATUS | wrapper  | 2014/06/11 03:53:09 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2014/06/11 03:53:09 | TERM trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2014/06/11 03:53:09 | JVM did not exit on request, terminated
+INFO   | wrapper  | 2014/06/11 03:53:09 | JVM exited on its own while waiting to kill the application.
+STATUS | wrapper  | 2014/06/11 03:53:10 | JVM exited in response to signal SIGKILL (9).
+STATUS | wrapper  | 2014/06/11 03:53:10 | <-- Wrapper Stopped

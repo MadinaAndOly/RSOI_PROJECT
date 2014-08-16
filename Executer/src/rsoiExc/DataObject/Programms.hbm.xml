@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="rsoiExc.DataObject">
+	<class name="Programms" table="programms">
+		<id name="id" column="id">
+			<generator class="native"/>
+		</id>
+		<many-to-one name="parent" column="parent" class="rsoiExc.DataObject.Programms"/>
+		<property name="documentClass" column="documentClass"/>
+		<property name="state" column="state"/>
+		<property name="numberDoc" column="numberDoc"/>
+		<property name="dateDoc" column="dateDoc"/>
+		<property name="dateApprove" column="dateApprove"/>
+		<property name="caption" column="caption"/>
+		<property name="dateStart" column="dateStart"/>
+		<property name="dateEnd" column="dateEnd"/>
+
+	</class>
+</hibernate-mapping>

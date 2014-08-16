@@ -1,0 +1,46 @@
+июн 15, 2014 9:42:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/madina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+июн 15, 2014 9:42:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+июн 15, 2014 9:42:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+июн 15, 2014 9:42:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 873 ms
+июн 15, 2014 9:42:37 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+июн 15, 2014 9:42:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+июн 15, 2014 9:42:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/docs
+июн 15, 2014 9:42:38 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [151] milliseconds.
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/examples
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/host-manager
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/manager
+июн 15, 2014 9:42:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/Planning
+июн 15, 2014 9:42:40 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization started
+июн 15, 2014 9:42:40 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'Planning-servlet': startup date [Sun Jun 15 21:42:40 MSK 2014]; root of context hierarchy
+июн 15, 2014 9:42:40 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/app-config.xml]
+июн 15, 2014 9:42:41 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/hibernate.cfg.xml]
+июн 15, 2014 9:42:47 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29f29436: defining beans [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,viewResolver]; root of factory hierarchy
+июн 15, 2014 9:42:48 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'Planning': initialization completed in 7463 ms
+июн 15, 2014 9:42:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/ROOT
+июн 15, 2014 9:42:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/madina/Applications/apache-tomcat-7.0.52/webapps/WebPlanning
+июн 15, 2014 9:42:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+июн 15, 2014 9:42:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+июн 15, 2014 9:42:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11270 ms

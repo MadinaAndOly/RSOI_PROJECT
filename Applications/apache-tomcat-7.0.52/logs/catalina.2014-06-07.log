@@ -1,0 +1,22 @@
+июн 07, 2014 1:16:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 1:16:18 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 07, 2014 1:16:18 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 07, 2014 1:16:18 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 07, 2014 5:31:33 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 5:31:38 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context [/WebPlanning]
+июн 07, 2014 5:31:38 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] has started
+июн 07, 2014 5:31:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebPlanning] is completed
+июн 07, 2014 5:33:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 5:34:25 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+июн 07, 2014 5:38:12 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received

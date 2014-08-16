@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="rsoi.DataObject">
+	<class name="StateProgDocChildren" table="stateProgDocChildren">
+		<id name="id" column="id">
+			<generator class="native"/>
+		</id>
+		<many-to-one name="slave" column="slave" class="rsoi.DataObject.StateProgDoc"/>
+		<many-to-one name="master" column="master" class="rsoi.DataObject.StateProgDoc"/>
+	</class>
+</hibernate-mapping>

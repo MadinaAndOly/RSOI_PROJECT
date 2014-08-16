@@ -1,0 +1,100 @@
+2014-05-25 13:14:14,049 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@36c8e545: startup date [Sun May 25 13:14:14 MSK 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-05-25 13:14:15,798 | INFO  | PListStore:[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-05-25 13:14:15,846 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-05-25 13:14:16,119 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-52247-1401009255971-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-05-25 13:14:16,154 | INFO  | Listening for connections at: tcp://MacBook-Air-Madina.local:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-05-25 13:14:16,154 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-05-25 13:14:16,162 | INFO  | Listening for connections at: amqp://MacBook-Air-Madina.local:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-05-25 13:14:16,162 | INFO  | Connector amqp Started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-05-25 13:14:16,164 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-52247-1401009255971-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-05-25 13:14:16,164 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-05-25 13:14:16,165 | WARN  | Store limit is 102400 mb, whilst the data directory: /Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb only has 81830 mb of usable space | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-05-25 13:14:17,062 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-05-25 13:14:17,283 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-05-25 13:14:17,406 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-05-25 13:14:17,832 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-05-26 14:11:34,008 | WARN  | Transport Connection to: tcp://127.0.0.1:57036 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:57036 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2014-05-26 14:37:45,181 | INFO  | Connector vm://localhost Started | org.apache.activemq.broker.TransportConnector | qtp1940318230-33
+2014-05-26 15:22:55,185 | WARN  | Transport Connection to: tcp://127.0.0.1:57974 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:57974@61616
+2014-05-26 15:22:57,733 | INFO  | Connector vm://localhost Stopped | org.apache.activemq.broker.TransportConnector | HashSessionScavenger-0
+2014-05-26 15:23:49,179 | INFO  | Connector vm://localhost Started | org.apache.activemq.broker.TransportConnector | qtp1940318230-35
+2014-05-26 16:00:39,549 | INFO  | Connector vm://localhost Stopped | org.apache.activemq.broker.TransportConnector | HashSessionScavenger-0
+2014-05-26 16:01:19,193 | INFO  | Connector vm://localhost Started | org.apache.activemq.broker.TransportConnector | qtp1940318230-38
+2014-05-26 16:03:29,983 | WARN  | Transport Connection to: tcp://127.0.0.1:58093 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:58093 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2014-05-26 16:32:39,694 | INFO  | Connector vm://localhost Stopped | org.apache.activemq.broker.TransportConnector | HashSessionScavenger-0
+2014-05-26 17:47:46,725 | WARN  | Ignoring ack received before dispatch; result of failover with an outstanding ack. Acked messages will be replayed if present on this broker. Ignored ack: MessageAck {commandId = 6, responseRequired = false, ackType = 2, consumerId = ID:MacBook-Air-Madina.local-58092-1401105739783-1:1:1:1, firstMessageId = ID:MacBook-Air-Madina.local-52247-1401009255971-3:3:1:1:2, lastMessageId = ID:MacBook-Air-Madina.local-52247-1401009255971-3:3:1:1:2, destination = queue://testQ, transactionId = null, messageCount = 1, poisonCause = null} | org.apache.activemq.broker.region.PrefetchSubscription | ActiveMQ Transport: tcp:///127.0.0.1:60060@61616
+2014-05-26 18:52:14,553 | INFO  | Connector vm://localhost Started | org.apache.activemq.broker.TransportConnector | qtp1940318230-38
+2014-06-04 11:29:29,527 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@23652209: startup date [Wed Jun 04 11:29:29 MSK 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-06-04 11:29:31,154 | INFO  | PListStore:[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-06-04 11:29:31,201 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-06-04 11:29:31,608 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-06-04 11:29:31,645 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-06-04 11:29:31,657 | INFO  | Recovery replayed 3 operations from the journal in 0.032 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-06-04 11:29:31,870 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-50632-1401866971700-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-06-04 11:29:32,001 | INFO  | Listening for connections at: tcp://MacBook-Air-Madina.local:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-06-04 11:29:32,002 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-06-04 11:29:32,008 | INFO  | Listening for connections at: amqp://MacBook-Air-Madina.local:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-06-04 11:29:32,009 | INFO  | Connector amqp Started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-06-04 11:29:32,011 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:MacBook-Air-Madina.local-50632-1401866971700-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-06-04 11:29:32,011 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-06-04 11:29:32,011 | WARN  | Store limit is 102400 mb, whilst the data directory: /Users/madina/Applications/apache-activemq-5.8.0/bin/macosx/../../data/kahadb only has 73330 mb of usable space | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-06-04 11:29:32,913 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-06-04 11:29:33,113 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-06-04 11:29:33,220 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-06-04 11:29:33,658 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-06-05 11:43:20,729 | INFO  | Connector vm://localhost Started | org.apache.activemq.broker.TransportConnector | qtp733815128-41
+2014-06-05 11:51:02,604 | WARN  | Transport Connection to: tcp://127.0.0.1:59012 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:59012 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2014-06-05 11:54:31,537 | WARN  | Ignoring ack received before dispatch; result of failover with an outstanding ack. Acked messages will be replayed if present on this broker. Ignored ack: MessageAck {commandId = 6, responseRequired = false, ackType = 2, consumerId = ID:MacBook-Air-Madina.local-59011-1401954592373-1:1:1:1, firstMessageId = ID:MacBook-Air-Madina.local-57758-1401953186008-1:1:1:1:1, lastMessageId = ID:MacBook-Air-Madina.local-57758-1401953186008-1:1:1:1:1, destination = queue://0012123143365, transactionId = null, messageCount = 1, poisonCause = null} | org.apache.activemq.broker.region.PrefetchSubscription | ActiveMQ Transport: tcp:///127.0.0.1:59243@61616
+2014-06-05 11:57:04,926 | WARN  | Transport Connection to: tcp://127.0.0.1:59243 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:59243@61616
+2014-06-05 12:03:15,480 | WARN  | Transport Connection to: tcp://127.0.0.1:59946 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:59946@61616
+2014-06-05 12:05:21,893 | WARN  | Transport Connection to: tcp://127.0.0.1:59955 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:59955@61616
+2014-06-05 16:48:25,174 | WARN  | /admin/deleteDestination.action | org.eclipse.jetty.servlet.ServletHandler | qtp733815128-38
+java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:288)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1048)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:886)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:778)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1329)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1300)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1038)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:374)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:972)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:363)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:483)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:920)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+2014-06-09 12:02:11,496 | WARN  | Transport Connection to: tcp://127.0.0.1:62183 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:62183 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
